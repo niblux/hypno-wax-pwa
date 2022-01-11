@@ -14,6 +14,16 @@ export class MeditationService {
       title: 'Fade away with this relaxing hypno therapy',
       headerImage: 'image path',
     },
+    {
+      name: 'Second Wax Meditation',
+      title: 'Fade away with this relaxing hypno therapy',
+      headerImage: 'image path',
+    },
+    {
+      name: 'Third Wax Meditation',
+      title: 'Fade away with this relaxing hypno therapy',
+      headerImage: 'image path',
+    },
   ];
 
   getMeditations(): Observable<any> {
